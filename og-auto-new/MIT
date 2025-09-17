@@ -1,0 +1,16 @@
+
+---
+
+# 5) `CONTRIBUTING.md` (коротко)
+```markdown
+# Contributing
+
+1. Форкни репозиторий, создай ветку `feature/my-change`.
+2. Настрой Python 3.10+ (или твоя версия), `pip install -r requirements.txt`.
+3. Формат: `black .` и `ruff --fix .`.
+4. Запусти быстрые проверки: `pytest -q` (если добавишь тесты).
+5. Делай PR, опиши изменения и контекст.
+
+## Code style
+- Python: black + ruff
+- Коммиты: обычные, но приветствуются conventional commits (`feat: …`, `fix: …`)
